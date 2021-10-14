@@ -15,115 +15,111 @@
 </head>
 
 <body>
-    <section class="home-page" id="main">
-        <header>
-            <img src="icon.png" alt="icon">
-            <ul>
-                <li><a href="#main">MAIN</a></li>
-                <li><a href="#pro">SKILLS</a></li>
-                <li><a href="#con">CONTACT</a></li>
-            </ul>
-        </header>
 
-        <div class="all">
+    <section class="home-page">
             <aside></aside>
             <main>
-                <img src="icon.png" alt="icon">
                 <h1>Hi, I'm Heba</h1>
                 <h2>your web developer</h2>
                 <h2>in Germany</h2>
                 <a class="more" href="#pro">
                     <h2>show more</h2>
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-double-down"
-                        class="svg-inline--fa fa-angle-double-down fa-w-10" role="img"
-                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                        <path fill="currentColor"
-                            d="M143 256.3L7 120.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0L313 86.3c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.4 9.5-24.6 9.5-34 .1zm34 192l136-136c9.4-9.4 9.4-24.6 0-33.9l-22.6-22.6c-9.4-9.4-24.6-9.4-33.9 0L160 352.1l-96.4-96.4c-9.4-9.4-24.6-9.4-33.9 0L7 278.3c-9.4 9.4-9.4 24.6 0 33.9l136 136c9.4 9.5 24.6 9.5 34 .1z">
-                        </path>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-double-down" class="svg-inline--fa fa-angle-double-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor" d="M143 256.3L7 120.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0L313 86.3c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.4 9.5-24.6 9.5-34 .1zm34 192l136-136c9.4-9.4 9.4-24.6 0-33.9l-22.6-22.6c-9.4-9.4-24.6-9.4-33.9 0L160 352.1l-96.4-96.4c-9.4-9.4-24.6-9.4-33.9 0L7 278.3c-9.4 9.4-9.4 24.6 0 33.9l136 136c9.4 9.5 24.6 9.5 34 .1z"><path>
                     </svg>
                 </a>
-
             </main>
-        </div>
     </section>
 
-
-
-    <section class="projects-section">
+    <section class="site">
         <h4 id="pro"> SKILLS & Experience ...</h4>
-        <article class="ar1">
-            <h5 id="title">Frontend development</h5>
-            <h5 id="text">
-
+        <div class="article">
+            <h5 class="title">Frontend development</h5>
+            <h5 class="text">
                 <P>HTML</P>
                 <P>CSS</P>
                 <P>Javascript</P>
                 <P>Bootstrap</P>
+            </h5>
+            <h5 class="text">
                 <P>SCSS</P>
-                </h5>
-        </article>
-        <article class="ar2">
-            <h5 id="title">MERN-Stack development</h5>
-            <h5 id="text">
+                <P>React</P>
+                <P>Deployment</P>
+            </h5>
+        </div>
+        <div class="article">
+            <h5 class="title">MERN-Stack development</h5>
+            <h5 class="text">
                 <P>MongoDB</P>
                 <P>Express</P>
                 <P>React</P>
                 <P>NodeJS</P>
             </h5>
-        </article>
-
-        <article class="ar3">
-            <h5 id="title">Software</h5>
-            <h5 id="text">
+        </div>
+        <div class="article">
+            <h5 class="title">Software</h5>
+            <h5 class="text">
                 <p>Java</p>
                 <p>VisualBasic</p>
                 <p>Delphi</p>
             </h5>
-        </article>
-        <article class="ar4">
-            <h5 id="title">Languages</h5>
-            <h5 id="text">
+        </div>
+        <div class="article">
+            <h5 class="title">Languages</h5>
+            <h5 class="text">
                 <p>Arabic</p>
                 <p>German</p>
                 <p>English</p>
             </h5>
-        </article>
-        <article class="ar5">
-            <h5 id="title">Other..</h5>
-            <h5 id="text">
+        </div>
+        <div class="article">
+            <h5 class="title">Other..</h5>
+            <h5 class="text">
                 <p>Photoshop</p>
                 <p>MS Office</p>
 
             </h5>
-        </article>
+        </div>
     </section>
 
-    <footer>
-        <h4>CONTACT ME ...</h4>
-        <form class="site3" id="con">
-            <p>Please fill out the contact form</p><br>
-            <label for="fname">Full Name</label>
-            <input type="text" minlength="1" placeholder=" name">
-            <label for="email">E-Mail</label>
-            <input type="email" minlength="5" placeholder=" name@example.com">
-            <label for="message">Message</label>
-            <textarea name="userMessage" minlength="1" placeholder=" send me a message" cols="20" rows="5"></textarea>
-            <button type="submit" class="submit-btn">send</button>
-        </form>
-        <h4> Follow Me ...</h4>
+    <section class="site">
+        <h4>PROJECTS ...</h4>
+        <div class="article">
+            <a href="https://heba-mem.netlify.app/">
+                <h5>Memory game</h5>
+            </a>
+            <h6 class="text">The first project is a simple game developed with HTML,CSS and JS.
+            </h6>
+        </div>
+        <div class="article">
+            <a href="https://h-react.netlify.app/"><h5>Google Books</h5></a>
+            <h6 class="text">The second project is a Books search engine developed with React, Reactstrap and axios. </h6>
+        </div>
+    </section>
 
+    <section class="site">
+        <h4>CONTACT & FOLLOW ME ...</h4>
         <table>
+            <td><a href="mailto:heba345@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></td>
             <td><a href="https://github.com/Heba-Dughmosh"><i class="fab fa-github fa-2x"></i></a></td>
-            <td><a href="https://www.linkedin.com/in/heba-dughmosh-b871ba213/"><i
-                        class="fab fa-linkedin-in fa-2x"></i></a></td>
+            <td><a href="https://www.linkedin.com/in/heba-dughmosh-b871ba213/"><i class="fab fa-linkedin-in fa-2x"></i></a></td>
             <td><a href="https://www.xing.com/profile/Heba_Dughmosh/cv"><i class="fab fa-xing fa-2x"></i></a></td>
             <td><a href="https://twitter.com/HebaDughmosh"><i class="fab fa-twitter fa-2x"></i></a></td>
             <td><a href="https://stackoverflow.com/users/16040965/heba"><i class="fab fa-stack-overflow fa-2x"></i></a>
             </td>
         </table>
-    </footer>
+    </section>
     <br>
     <div class="copyright">&COPY; 2021 Heba </div>
-</body>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
+    <script>
+        const btn = document.getElementById("myBtn");
+        window.onscroll = function () { scrollFunction() };
+        const scrollFunction = () => document.documentElement.scrollTop > 1000 ? btn.style.display = "block" : btn.style.display = "none";
+        const topFunction = () => document.documentElement.scrollTop = 0;
+    </script>
+
+</body>
 </html>
